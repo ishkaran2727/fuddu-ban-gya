@@ -1,9 +1,9 @@
 CC=g++
 
-all: my-router
+all: project2
 
-my-router:
-	$(CC)  fuddu_banana_h.cpp -o my-router 
+project2:
+	$(CC)  fuddu_banana_h.cpp -o project2 
 
 clean:
-	rm my-router routing-output*.txt
+	rm project2 routing-output*.txt
